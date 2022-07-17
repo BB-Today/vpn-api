@@ -23,7 +23,6 @@ export class Config extends AbstractConfig {
 			db: this.getString('DB_DB'),
 			user: this.getString('DB_USER'),
 			pass: this.getString('DB_PASS'),
-			dialect: this.getString('DB_DIALECT'),
 		},
 	};
 }
